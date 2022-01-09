@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Montserrat:wght@200;300;400&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&family=Montserrat:wght@200;300;400&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header p {
+    font-family: inconsolata, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.container-main{
+    margin : 3em 5em 1em;
+}
+.container{
+    padding : 3em 5em;
+}
+.pembungkus{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%
+}
+.left{
+    width:500px;
+    
+}
+.left img{
+    width: 400px;
+}
+.right{
+    width: 500px;
+}
+.right{
+    font-family: Space Mono, sans-serif;
+}
+
+.right .title h1{
+    font-size: 3rem;
+}
+
+.right .text {
+    margin:1.5em 0 1.5em 0;
+    width: 20em;
+}
+
+.right .button{
+    font-size: 0.6rem;
+    background:#333;
+    display: inline-block;
+    width: 15em;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+    text-decoration: none;
+    color: aliceblue;
+}
+.right .button:hover{
+    background: none;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.container-main footer{
+    text-align: center;
+    margin-top: 5em;
+    font-family: Space Mono, sans-serif;
+    font-size: 0.8em;
+    color: #bdbdbd;
+}
+
+.container-main footer a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+@media(max-width: 745px){
+    .right .title h1{
+        font-size: 2rem;
+    }
+    .right .text {
+        margin:1em 0 1.5em 0;
+        width: 20em;
+    }
+}

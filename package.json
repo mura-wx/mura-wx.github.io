@@ -1,0 +1,22 @@
+{
+  "name": "404",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mura-wx/404-not-found-maste.git"
+  },
+  "author": "rafli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mura-wx/404-not-found-maste/issues"
+  },
+  "homepage": "https://github.com/mura-wx/404-not-found-maste#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
