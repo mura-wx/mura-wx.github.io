@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mura-wx/404-not-found-maste.git"
+    "url": "git+mura-wx/404-not-found.git"
   },
   "author": "rafli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mura-wx/404-not-found-maste/issues"
+    "url": "https://github.com/mura-wx/404-not-found/issues"
   },
-  "homepage": "https://github.com/mura-wx/404-not-found-maste#readme",
+  "homepage": "https://github.com/mura-wx/404-not-found#index.html",
   "dependencies": {
     "express": "^4.17.2"
   }
