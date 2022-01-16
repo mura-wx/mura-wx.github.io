@@ -129,13 +129,9 @@ footer .footer-content a{
 }
 
 @media(max-width:512px){
-    section .section-content .mb-m{
-        transform: translateY(0);
-    }
-    section .section-content .pembungkus{
-        height: 350px;
-    }
-    section .section-content{
-        justify-content: center;
+    .container{
+        margin-left: 20px;
+        margin-right: 10px;
+        align-items: center;
     }
 }
