@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 5%;
+}
+.container{
+    margin: auto;
+    max-width: 1020px;
+
+}
+.flex{
+    display: flex;
+}
+
+header .flex .header-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+header .header-content .Headtitle{
+    font-family: PT serif, serif  ;
+    margin-bottom: 30px;
+    font-size: large;
+    margin-right: 50px;
+}
+header .caption{
+    font-family: poppins, sans-serif;
+    width: 50%;
+}
+header .caption h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+section .section-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 100px;
+}
+section .section-content .pembungkus{
+    height: 600px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+section .section-content .tpan{
+    display: flex;
+    margin-bottom: 20px;
+}
+section .section-content .title{
+    width: 35px;
+}
+section .section-content .title p{
+    transform: rotate(90deg);
+    position: relative;
+    left: 35px;
+    transform-origin:left top;
+    display: inline-block;
+    width: 350%;
+    font-family: PT serif, serif;
+
+
+}
+section .section-content img{
+    width: 250px;
+}
+section .section-content .name h3{
+    font-family: poppins, sans-serif;
+}
+
+section .section-content .dkstp-m{
+    transform: translateY(150px);
+}
+
+
+
+footer .container{
+    margin-bottom: 0;
+}
+footer .footer-content{
+    padding: 20px;
+    color: #a9a9;
+    font-family: montserrat, sans-serif;
+    text-align: center;
+}
+footer .footer-content a{
+    text-decoration: none;
+    color: #a9a9;
+    font-weight: 700;
+}
+
+@media(max-width:1263px) {
+    .container{
+        margin: 5% 10%;
+    }
+}
+@media(max-width:1143px){
+    section .section-content .dkstp-m{
+        transform: translateY(0);
+    }
+    section .section-content .mb-m{
+        transform: translateY(150px);
+    }
+}
+@media(max-width:1000px) {
+    header .caption{
+        font-family: poppins, sans-serif;
+        width: 100%;
+    }
+
+}
+@media(max-width:762px){
+    section .section-content img{
+        width: 150px;
+    }
+    section .section-content .pembungkus{
+        height: 420px;
+    }
+}
+
+@media(max-width:512px){
+    section .section-content .mb-m{
+        transform: translateY(0);
+    }
+    section .section-content .pembungkus{
+        height: 350px;
+    }
+    section .section-content{
+        justify-content: center;
+    }
+}
