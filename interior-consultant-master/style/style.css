@@ -123,6 +123,7 @@
   bottom: -100px;
   right: 80px;
   border-radius: 20px;
+  z-index: inherit;
 }
 .designer-prof {
   display: flex;
