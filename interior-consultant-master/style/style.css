@@ -13,6 +13,7 @@
 }
 .header .header-content {
   position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +52,7 @@
   left: 0;
 }
 
-.header h4 {
+.header .judul {
   text-transform: uppercase;
   padding: 0.8em 1em;
   border: 1px solid #fff;
