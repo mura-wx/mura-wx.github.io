@@ -12,11 +12,13 @@
   margin: 2.625rem 4.813rem;
 }
 .header{
-  position: sticky;
+  position: relative;
   width: 100%;
   top: 0;
 }
-
+.header .rel{
+  position: fixed;
+}
 .header .header-content {
   display: flex;
   justify-content: space-between;
