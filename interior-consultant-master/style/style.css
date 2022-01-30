@@ -15,6 +15,7 @@
   position: relative;
   width: 100%;
   top: 0;
+  z-index: 22;
 }
 .header .rel{
   position: fixed;
