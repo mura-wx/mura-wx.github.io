@@ -11,9 +11,11 @@
 .container {
   margin: 2.625rem 4.813rem;
 }
-.header .header-content {
+.header{
   position: fixed;
   width: 100%;
+}
+.header .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
