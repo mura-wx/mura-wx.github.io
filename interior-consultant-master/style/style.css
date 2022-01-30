@@ -176,7 +176,6 @@
   .header .header-content .menubutton {
     cursor: pointer;
     display: block;
-    z-index: 999;
   }
   .header .navigasi {
     position: fixed;
