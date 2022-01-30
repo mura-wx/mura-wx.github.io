@@ -52,7 +52,7 @@
   left: 0;
 }
 
-.header .judul {
+.header .header-content .judul {
   text-transform: uppercase;
   padding: 0.8em 1em;
   border: 1px solid #fff;
