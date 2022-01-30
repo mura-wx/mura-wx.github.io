@@ -12,6 +12,7 @@
   margin: 2.625rem 4.813rem;
 }
 .header .header-content {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
