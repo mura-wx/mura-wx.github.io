@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  text-decoration: none;
+  font-family: "montserrat";
+}
+a:hover {
+  color: #f2994a;
+}
+.container {
+  width: 969px;
+  margin: auto;
+}
+
+.heroku {
+  width: 100%;
+}
+
+.m-des {
+  display: flex;
+  width: 592px;
+  font-size: 14px;
+  font-family: "montserrat", sans-serif;
+  color: #4f4f4f;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.m-des .dots img {
+  margin-right: 20px;
+  display: block;
+  margin-top: 5px;
+  width: 20px;
+}
+.hdes {
+  line-height: 2;
+}
+
+.m-title {
+  font-size: 48px;
+  color: #000;
+  font-family: "Playfair Display", serif;
+}
+
+/* recipe section */
+
+.recipe-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* popup styling */
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+.popup-container {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 10px;
+}
+.contain {
+  display: flex;
+  align-items: center;
+}
+.ac {
+  color: #f2994a;
+}
+.contain .bx {
+  font-size: 27px;
+  margin-right: 10px;
+}
+.contain .title {
+  font-size: 10px;
+  color: #bdbdbd;
+  margin-bottom: 5px;
+}
+.contain .des {
+  font-size: 14px;
+}
+
+/* popup style end */
+
+/* i-container styling */
+
+.i-container {
+  width: 600px;
+}
+.source {
+  display: flex;
+  flex-wrap: wrap;
+}
+.source a {
+  margin-left: 10px;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+
+.i-container ul li {
+  display: flex;
+  margin-bottom: 10px;
+}
+.square {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.i-title {
+  font-size: 24px;
+  font-family: "Playfair Display";
+}
+
+.i-container ol li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.i-container h3 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+}
+
+.number-list {
+  width: 36px;
+  background-color: #f2994a;
+  border-radius: 6px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  margin-right: 20px;
+}
+.source,
+.source a {
+  color: #bdbdbd;
+}
+.text {
+  line-height: 2;
+}
+.i-container a {
+  font-style: italic;
+}
+/* recipe section */
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #828282;
+}
+footer a {
+  color: #828282;
+}
+
+/* footer end */
+
+/* responsive design */
+
+@media (max-width: 989px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media (max-width: 721px) {
+  .popup {
+    width: 100%;
+  }
+  .popup-container {
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: none;
+    padding: 10px;
+  }
+  .ltu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mb28 {
+    margin-bottom: 28px;
+  }
+  .i-container {
+    width: 100%;
+  }
+  .m-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 598px) {
+  .m-des {
+    width: 100%;
+  }
+  .m-title {
+    font-size: 24px;
+  }
+  .i-title {
+    font-size: 18px;
+  }
+  .i-container h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 423px) {
+  .i-container a {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 413px) {
+  .i-container a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
