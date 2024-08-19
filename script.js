@@ -12,6 +12,9 @@ let kodam;
 submit.onclick = function () {
   name = document.getElementById("input").value;
   random = Math.floor(Math.random() * max) + min;
+  if(name=='rafli'){
+    kodam='Raja Iblis LUCIFER";
+  }else{
   switch (random) {
     case 1:
       kodam = "Kunti ijo";
@@ -95,6 +98,8 @@ submit.onclick = function () {
       kodam = "Pelangi";
       break;
   }
+  
   result.textContent = `Hai ${name} kodam mu adalah:`;
   kodcontent.textContent = kodam;
+  }
 };
