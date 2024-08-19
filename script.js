@@ -12,7 +12,7 @@ let kodam;
 submit.onclick = function () {
   name = document.getElementById("input").value;
   random = Math.floor(Math.random() * max) + min;
-  if(name=='rafli'){
+  if(name='rafli'){
     kodam='Raja Iblis LUCIFER";
   }else{
   switch (random) {
