@@ -94,7 +94,7 @@ submit.onclick = function () {
     case 27:
       kodam = "Pelangi";
       break;
-  };
+  }
   
   result.textContent = `Hai ${name} kodam mu adalah:`;
   kodcontent.textContent = kodam;
