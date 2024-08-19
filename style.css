@@ -1,0 +1,52 @@
+/** @format */
+
+:root {
+  --merah: rgb(151, 0, 0);
+}
+
+body {
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 1em;
+  background-color: #070000;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.title {
+  color: var(--merah);
+}
+
+#input {
+  border: 2px solid blanchedalmond;
+  background-color: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+}
+
+#button {
+  font-size: 1.2em;
+  border: 2px solid brown;
+  background-color: #1f0202;
+  padding: 5px 10px;
+  color: brown;
+  cursor: pointer;
+  font-family: "Gloria Hallelujah", sans-serif;
+}
+
+#button:hover {
+  background-color: brown;
+  color: blanchedalmond;
+  transition: 0.5;
+}
+
+#kod {
+  font-size: 2em;
+  color: var(--merah);
+}
+
+footer {
+  position: absolute;
+  color: rgba(240, 248, 255, 0.521);
+  font-size: 0.6em;
+}
