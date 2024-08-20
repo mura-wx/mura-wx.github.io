@@ -74,6 +74,6 @@ const khodamList = [
 submit.onclick = function () {
   name = document.getElementById("input").value;
   random = Math.floor(Math.random() * max) + min;
-  result.textContent = `${name} dialah kodam kamu`;
+  result.textContent = `${name} kodam kamu adalah:`;
   kodcontent.textContent = khodamList[random];
 };
