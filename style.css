@@ -14,6 +14,8 @@ body {
 
 .title {
   color: var(--merah);
+  font-family: "Creepster", system-ui;
+  font-size: 36px;
 }
 
 #input {
@@ -43,6 +45,7 @@ body {
 #kod {
   font-size: 2em;
   color: var(--merah);
+  font-family: "Creepster", system-ui;
 }
 
 footer {
